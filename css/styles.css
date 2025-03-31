@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo del logo */
+.logo-image {
+  max-width: 100px; /* Hacemos el logo más pequeño */
+  height: auto;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #ffffff; /* Fondo blanco */
+  border-bottom: 2px solid #7cb342; /* Borde verde oscuro */
+}
+
+header .container {
+  display: flex;
+  align-items: center; /* Alineamos verticalmente los elementos */
+}
+
+header h2 {
+  font-size: 1.8rem; /* Reducimos ligeramente el tamaño del título */
+  color: #007bff; /* Azul Bootstrap */
+  margin: 0; /* Eliminamos márgenes innecesarios */
+}
+
+/* Contenido principal */
+main {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Tabla */
+.table-responsive {
+  margin-top: 20px;
+  margin-bottom: 40px; /* Espaciado inferior para separar de otros elementos */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Quitamos bordes duplicados entre celdas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Para que los bordes redondeados se apliquen correctamente */
+}
+
+.table thead th {
+  background-color: #7cb342; /* Verde oscuro */
+  color: #fff; /* Texto blanco */
+  font-weight: bold;
+  text-align: center; /* Centramos el texto en el encabezado */
+  padding: 12px; /* Espaciado interno */
+  border: none; /* Quitamos bordes innecesarios */
+}
+
+.table tbody td {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #333; /* Texto oscuro */
+  text-align: center; /* Centramos el texto en las celdas */
+  padding: 12px; /* Espaciado interno */
+  border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+  vertical-align: middle; /* Centramos verticalmente el contenido */
+}
+
+/* Alternancia de colores en las filas */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Fondo gris claro para filas pares */
+}
+
+/* Hover en las filas */
+.table tbody tr:hover {
+  background-color: #e9ffe0; /* Resaltamos la fila al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Botones dentro de la tabla */
+.table tbody td .btn {
+  padding: 8px 12px; /* Espaciado reducido para los botones */
+  font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+  margin: 0 5px; /* Espacio entre botones */
+}
+
+.table tbody td .btn-primary {
+  background-color: #007bff; /* Azul Bootstrap */
+  border-color: #007bff;
+}
+
+.table tbody td .btn-primary:hover {
+  background-color: #0056b3; /* Azul más oscuro */
+  border-color: #0056b3;
+}
+
+.table tbody td .btn-danger {
+  background-color: #dc3545; /* Rojo Bootstrap */
+  border-color: #dc3545;
+}
+
+.table tbody td .btn-danger:hover {
+  background-color: #a71d2a; /* Rojo más oscuro */
+  border-color: #a71d2a;
+}
+
+/* Botón "Agregar Nuevo Profesor" */
+.btn-success {
+  background-color: #7cb342; /* Verde oscuro */
+  border-color: #7cb342;
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+  padding: 12px 24px; /* Espaciado interno */
+}
+
+.btn-success:hover {
+  background-color: #5e8b3d; /* Verde más oscuro */
+  border-color: #5e8b3d;
+}
+
+/* Alertas */
+.alert {
+  margin-top: 20px;
+}
+
+.alert-success {
+  background-color: #7cb342; /* Verde oscuro */
+  color: #fff; /* Texto blanco */
+  border-color: #7cb342;
+}
+
+.alert-danger {
+  background-color: #dc3545; /* Rojo Bootstrap */
+  color: #fff; /* Texto blanco */
+  border-color: #dc3545;
+}
